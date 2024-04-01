@@ -15,6 +15,8 @@ charset-normalizer==3.3.2
 cloudpickle==3.0.0
 colorama==0.4.6
 comm==0.2.2
+cuda-python==12.1.0
+Cython==3.0.10
 debugpy==1.8.1
 decorator==5.1.1
 defusedxml==0.7.1
@@ -76,6 +78,7 @@ overrides==7.7.0
 packaging==24.0
 pandocfilters==1.5.1
 parso==0.8.3
+pillow==10.3.0
 platformdirs==4.2.0
 prometheus_client==0.20.0
 prompt-toolkit==3.0.43
@@ -109,7 +112,9 @@ terminado==0.18.1
 threadpoolctl==3.4.0
 tinycss2==1.2.1
 tomli==2.0.1
-torch==2.2.2
+torch==2.2.2+cu121
+torchaudio==2.2.2+cu121
+torchvision==0.17.2+cu121
 tornado==6.4
 traitlets==5.14.2
 types-python-dateutil==2.9.0.20240316
